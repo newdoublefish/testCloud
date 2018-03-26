@@ -22,11 +22,22 @@ def report(request):
             
             reportType = TestType.objects.get(name_text=request_data['type'])
             reportResult = True if request_data['result']=='True'else False
-            newReport = Record(sn_text=request_data["sn"],testtype=reportType,result_bool=reportResult,report_text=request_data['report'],pub_date = timezone.now(),factory_text=request_data['factory'],person_text = request_data['person'],approved_bool = False)
+            newReportSet = Record.objects.filter(sn_text=request_data['sn'],testtype=reportType)
+            if newReportSet.exists()==True:
+                newReport=newReportSet[0]
+            else:
+                newReport = Record()       
+            newReport.sn_text=request_data["sn"]
+            newReport.testtype=reportType
+            newReport.result_bool=reportResult
+            newReport.report_text=request_data['report']
+            newReport.pub_date = timezone.now()
+            newReport.factory_text=request_data['factory']
+            newReport.person_text = request_data['person']
+            newReport.approved_bool = False
             newReport.save();
             response_packet['data']={"reportid":newReport.id}
             response_packet['status']="success";
-
             #try:
             #    device = Dev.objects.get(sn_text=request_data["sn"]);
             #    devTest = DevTest(testtype=reportType,dev=device,record=newReport);
