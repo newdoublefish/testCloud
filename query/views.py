@@ -35,11 +35,12 @@ def getDataAnalysis(request):
     #records = Record.objects.filter(test_type=reportType).extra(select=select).values('day').annotate(number=Count('id'))
     records = Record.objects.extra(select=select).values('day').annotate(number=Count('id')).order_by('day')
     angui = TestType.objects.get(name_text='安规')
-    anguiRecords = Record.objects.filter(test_type=angui).extra(select=select).values('day').annotate(number=Count('id'))
+    anguiRecords = Record.objects.all().filter(test_type=angui).extra(select=select).values('day').annotate(number=Count('id'))
     board = TestType.objects.get(name_text='板级')
-    boardRecords = Record.objects.filter(test_type=board).extra(select=select).values('day').annotate(number=Count('id'))
+    boardRecords = Record.objects.all().filter(test_type=board).extra(select=select).values('day').annotate(number=Count('id'))
+    #print(boardRecords)
     intege = TestType.objects.get(name_text='整机')
-    integeRecords = Record.objects.filter(test_type=intege).extra(select=select).values('day').annotate(number=Count('id'))
+    integeRecords = Record.objects.all().filter(test_type=intege).extra(select=select).values('day').annotate(number=Count('id'))
     #print(request.user.username)
     response_packet = {"response": "cmd", "data": {"全部": "", "整机": "", "板级": "", "安规": ""}, "status": "error"}
     #print(records)
@@ -65,10 +66,9 @@ def getDataAnalysis(request):
     for record in boardRecords:
         dataBoard[record['day']]=record['number']
 
-    #response_packet['data'] = {"user1":"name1","user2":"name2"}
     response_packet['data']['全部'] = dataAll
     response_packet['data']['整机'] = dataIntege
-    response_packet['data']['板级'] = dataAngui
+    response_packet['data']['板级'] = dataBoard
     response_packet['data']['安规'] = dataAngui
     return HttpResponse(json.dumps(response_packet), content_type="application/json")
 

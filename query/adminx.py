@@ -36,7 +36,7 @@ xadmin.site.register(views.website.IndexView, MainDashboard)
 class GlobelSetting(object):
     site_title = "广州万城万充新能源科技有限公司"
     site_footer = "广州万城万充新能源科技有限公司"
-    menu_style = 'accordion'
+    #menu_style = 'accordion'
     global_models_icon = {
         Record:"fa fa-laptop",TestType:"fa fa-cloud"
     }

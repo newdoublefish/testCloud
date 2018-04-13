@@ -12003,3 +12003,782 @@ Not Found: /admin/static/js/jquery-3.2.1.min.js
 Not Found: /admin/static/js/jquery-3.2.1.min.js
 [13/Apr/2018 10:28:39] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
 [13/Apr/2018 10:28:39] "GET /query/data HTTP/1.1" 200 1154
+[13/Apr/2018 10:30:27] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 10:33:11] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 10:37:20] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 10:38:28] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 10:42:20] "GET /admin/ HTTP/1.1" 200 21960
+[13/Apr/2018 10:42:20] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[13/Apr/2018 10:42:20] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[13/Apr/2018 10:42:20] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8324
+[13/Apr/2018 10:42:20] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[13/Apr/2018 10:42:20] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[13/Apr/2018 10:42:20] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+[13/Apr/2018 10:42:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 10:42:21] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 10:42:21] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[13/Apr/2018 10:42:21] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[13/Apr/2018 10:42:21] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[13/Apr/2018 10:42:21] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[13/Apr/2018 10:42:21] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[13/Apr/2018 10:42:22] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[13/Apr/2018 10:42:22] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[13/Apr/2018 10:42:22] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[13/Apr/2018 10:42:22] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+[13/Apr/2018 10:42:22] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+[13/Apr/2018 10:42:22] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+[13/Apr/2018 10:42:22] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+[13/Apr/2018 10:42:24] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+[13/Apr/2018 10:42:24] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[13/Apr/2018 10:42:25] "GET /query/data HTTP/1.1" 200 1154
+[13/Apr/2018 10:42:55] "GET /admin/ HTTP/1.1" 200 21960
+[13/Apr/2018 10:42:55] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[13/Apr/2018 10:42:55] "GET /query/data HTTP/1.1" 200 1154
+[13/Apr/2018 10:43:05] "GET /admin/query/stubinfo/ HTTP/1.1" 200 37586
+[13/Apr/2018 10:43:05] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[13/Apr/2018 10:43:05] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+[13/Apr/2018 10:43:05] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[13/Apr/2018 10:43:05] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[13/Apr/2018 10:43:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:43:06] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+[13/Apr/2018 10:43:06] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+[13/Apr/2018 10:43:06] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[13/Apr/2018 10:43:06] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[13/Apr/2018 10:43:06] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[13/Apr/2018 10:43:09] "GET /admin/query/stubinfo/?_cols=stub_text.pub_date.sim_text HTTP/1.1" 200 44579
+[13/Apr/2018 10:43:09] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+[13/Apr/2018 10:43:11] "GET /admin/query/stubinfo/?_cols=stub_text.pub_date.sim_text.board_text HTTP/1.1" 200 50281
+[13/Apr/2018 10:43:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:43:13] "GET /admin/query/stubinfo/?_cols=stub_text.pub_date.sim_text.board_text.ammeter1_text HTTP/1.1" 200 56130
+[13/Apr/2018 10:43:13] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:43:15] "GET /admin/query/stubinfo/?_cols=stub_text.pub_date.sim_text.board_text.ammeter1_text.ammeter2_text HTTP/1.1" 200 62035
+[13/Apr/2018 10:43:15] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:43:17] "GET /admin/query/stubinfo/?_cols=stub_text.pub_date.sim_text.board_text.ammeter1_text.ammeter2_text.gun1_text HTTP/1.1" 200 67838
+[13/Apr/2018 10:43:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:43:24] "GET /admin/query/stubinfo/?_do_=export&_cols=stub_text.pub_date.sim_text.board_text.ammeter1_text.ammeter2_text.gun1_text&export_type=xls&export_xls_header=on HTTP/1.1" 200 17920
+[13/Apr/2018 10:43:25] "GET /admin/query/stubinfo/?_do_=export&_cols=stub_text.pub_date.sim_text.board_text.ammeter1_text.ammeter2_text.gun1_text&export_type=xls&export_xls_header=on HTTP/1.1" 200 17920
+[13/Apr/2018 10:44:05] "GET /admin/query/stubinfo HTTP/1.1" 301 0
+[13/Apr/2018 10:44:58] "GET /admin/query/stubinfo/?_cols=stub_text.sim_text.board_text.ammeter1_text.ammeter2_text.gun1_text HTTP/1.1" 200 60838
+[13/Apr/2018 10:44:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:45:18] "GET /admin/query/boardinfo/ HTTP/1.1" 200 37851
+[13/Apr/2018 10:45:18] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:45:21] "GET /admin/query/boardinfo/?_cols=board_text.pub_date.dcd_text HTTP/1.1" 200 44474
+[13/Apr/2018 10:45:21] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:45:23] "GET /admin/query/boardinfo/?_cols=board_text.pub_date.dcd_text.pwr_text HTTP/1.1" 200 50422
+[13/Apr/2018 10:45:23] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:52:18] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 10:52:18] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 10:52:23] "GET /admin/query/boardinfo/ HTTP/1.1" 200 37851
+[13/Apr/2018 10:52:24] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:52:26] "GET /admin/query/boardinfo/79/detail/ HTTP/1.1" 200 12562
+[13/Apr/2018 10:52:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:52:34] "GET /admin/query/boardinfo/ HTTP/1.1" 200 37851
+[13/Apr/2018 10:52:34] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:52:41] "GET /admin/query/boardinfo/ HTTP/1.1" 200 37851
+[13/Apr/2018 10:52:41] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:52:54] "GET /admin/query/boardinfo/79/detail/ HTTP/1.1" 200 12562
+[13/Apr/2018 10:52:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:55:50] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 10:55:50] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 10:55:53] "GET /admin/query/boardinfo/79/detail/ HTTP/1.1" 200 12567
+[13/Apr/2018 10:55:54] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 10:55:54] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[13/Apr/2018 10:55:54] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+[13/Apr/2018 10:56:22] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 11:01:36] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 11:07:20] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 11:14:10] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 11:17:59] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 11:18:40] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 11:19:57] "POST /login/login HTTP/1.1" 200 80
+[13/Apr/2018 11:31:36] "POST /login/login HTTP/1.1" 200 73
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1423: RuntimeWarning: DateTimeField BoardInfo.pub_date received a naive datetime (2018-04-13 11:31:37.600317) while time zone support is active.
+  RuntimeWarning)
+[13/Apr/2018 11:31:37] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 11:31:37] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 11:38:09] "GET /admin/ HTTP/1.1" 200 22867
+[13/Apr/2018 11:38:09] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 11:38:09] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 11:38:09] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:38:09] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:09] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:10] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:10] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:10] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+[13/Apr/2018 11:38:10] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:10] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:10] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 11:38:10] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 11:38:10] "GET /query/data HTTP/1.1" 200 1154
+[13/Apr/2018 11:38:36] "GET /admin/query/record/ HTTP/1.1" 200 101365
+[13/Apr/2018 11:38:37] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/css/xadmin.widget.editable.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:38:37] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/js/xadmin.plugin.editable.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:37] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+[13/Apr/2018 11:38:56] "GET /admin/query/stubinfo/ HTTP/1.1" 200 53370
+[13/Apr/2018 11:38:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:39:02] "GET /admin/query/boardinfo/ HTTP/1.1" 200 53637
+[13/Apr/2018 11:39:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:39:43] "GET /admin/query/boardinfo/?_p_pub_date__gte=2018-04-13+00%3A00%3A00%2B08%3A00&_p_pub_date__lt=2018-04-14+00%3A00%3A00%2B08%3A00 HTTP/1.1" 200 34244
+[13/Apr/2018 11:39:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:40:22] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 11:47:56] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 11:47:56] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 11:51:56] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 11:51:56] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 11:53:47] "GET /admin/auth/user/ HTTP/1.1" 200 47657
+[13/Apr/2018 11:54:07] "GET /admin/ HTTP/1.1" 200 22867
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 11:54:07] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:54:07] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 11:54:08] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 11:54:08] "GET /query/data HTTP/1.1" 200 1155
+Not Found: /favicon.ico
+[13/Apr/2018 11:54:08] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 11:54:11] "GET /admin/auth/user/ HTTP/1.1" 200 47657
+[13/Apr/2018 11:54:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:54:14] "GET /admin/auth/user/7/update/ HTTP/1.1" 200 29497
+[13/Apr/2018 11:54:14] "GET /static/xadmin/css/xadmin.widget.select-transfer.css HTTP/1.1" 304 0
+[13/Apr/2018 11:54:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:54:14] "GET /static/xadmin/js/xadmin.widget.select-transfer.js HTTP/1.1" 304 0
+[13/Apr/2018 11:55:20] "POST /admin/auth/user/7/update/ HTTP/1.1" 302 0
+[13/Apr/2018 11:55:20] "GET /admin/auth/user/ HTTP/1.1" 200 47885
+[13/Apr/2018 11:55:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:55:35] "GET /admin/auth/user/add/ HTTP/1.1" 200 18075
+[13/Apr/2018 11:55:35] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:55:53] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[13/Apr/2018 11:55:53] "GET /admin/auth/user/9/update/ HTTP/1.1" 200 29773
+[13/Apr/2018 11:55:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:56:35] "POST /admin/auth/user/9/update/ HTTP/1.1" 302 0
+[13/Apr/2018 11:56:36] "GET /admin/auth/user/ HTTP/1.1" 200 50133
+[13/Apr/2018 11:56:36] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:57:01] "POST /login/login HTTP/1.1" 200 76
+[13/Apr/2018 11:57:17] "GET /admin/auth/user/9/update/ HTTP/1.1" 200 29481
+[13/Apr/2018 11:57:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:57:36] "POST /admin/auth/user/9/update/ HTTP/1.1" 302 0
+[13/Apr/2018 11:57:36] "GET /admin/auth/user/ HTTP/1.1" 200 50134
+[13/Apr/2018 11:57:36] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 11:57:39] "GET /admin/logout/ HTTP/1.1" 200 2869
+[13/Apr/2018 11:57:39] "GET /admin/jsi18n/ HTTP/1.1" 200 4369
+[13/Apr/2018 11:57:40] "GET /admin/ HTTP/1.1" 200 4362
+[13/Apr/2018 11:57:41] "GET /admin/jsi18n/ HTTP/1.1" 200 4369
+[13/Apr/2018 11:57:47] "POST /admin/ HTTP/1.1" 302 0
+[13/Apr/2018 11:57:47] "GET /admin/ HTTP/1.1" 200 21958
+[13/Apr/2018 11:57:47] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 11:57:47] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 11:57:47] "GET /query/data HTTP/1.1" 200 1155
+[13/Apr/2018 11:58:03] "GET /admin/logout/ HTTP/1.1" 200 2869
+[13/Apr/2018 11:58:03] "GET /admin/jsi18n/ HTTP/1.1" 200 4369
+Not Found: /user/soapCaller.bs
+[13/Apr/2018 12:17:06] "GET /user/soapCaller.bs HTTP/1.1" 404 2310
+Not Found: /xadmin/
+[13/Apr/2018 12:55:18] "GET /xadmin/ HTTP/1.1" 404 2277
+Not Found: /favicon.ico
+[13/Apr/2018 12:55:18] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 12:55:26] "GET /admin/ HTTP/1.1" 200 21960
+[13/Apr/2018 12:55:26] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 12:55:26] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 12:55:26] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 12:55:26] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[13/Apr/2018 12:55:26] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/Apr/2018 12:55:26] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 12:55:26] "GET /query/data HTTP/1.1" 200 1155
+Not Found: /currentsetting.htm
+[13/Apr/2018 13:04:00] "GET /currentsetting.htm HTTP/1.1" 404 2310
+[13/Apr/2018 13:52:01] "GET /admin/ HTTP/1.1" 200 21960
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 13:52:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 13:52:01] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 13:52:01] "GET /query/data HTTP/1.1" 200 1155
+Not Found: /favicon.ico
+[13/Apr/2018 13:52:01] "GET /favicon.ico HTTP/1.1" 404 2289
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1423: RuntimeWarning: DateTimeField BoardInfo.pub_date received a naive datetime (2018-04-13 13:55:03.341165) while time zone support is active.
+  RuntimeWarning)
+[13/Apr/2018 13:55:03] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 13:55:03] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 14:00:45] "GET /admin/query/stubinfo/ HTTP/1.1" 200 37586
+[13/Apr/2018 14:00:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 14:00:45] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+[13/Apr/2018 14:00:45] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[13/Apr/2018 14:00:45] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+[13/Apr/2018 14:00:45] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+[13/Apr/2018 14:00:45] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+[13/Apr/2018 14:00:45] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+[13/Apr/2018 14:00:45] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+[13/Apr/2018 14:00:45] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+[13/Apr/2018 14:00:45] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/Apr/2018 14:00:45] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 14:00:58] "GET /admin/query/stubinfo/68/detail/ HTTP/1.1" 200 12584
+[13/Apr/2018 14:00:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+Not Found: /favicon.ico
+[13/Apr/2018 14:00:58] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 14:01:24] "GET /admin/query/boardinfo/ HTTP/1.1" 200 37851
+[13/Apr/2018 14:01:24] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+Not Found: /favicon.ico
+[13/Apr/2018 14:01:24] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 14:01:27] "GET /admin/query/boardinfo/83/detail/ HTTP/1.1" 200 12566
+[13/Apr/2018 14:01:27] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+Not Found: /favicon.ico
+[13/Apr/2018 14:01:27] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 14:01:42] "GET /admin/query/record/ HTTP/1.1" 200 66420
+[13/Apr/2018 14:01:42] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+Not Found: /favicon.ico
+[13/Apr/2018 14:01:42] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 14:01:47] "GET /admin/logout/ HTTP/1.1" 200 2869
+[13/Apr/2018 14:01:47] "GET /admin/jsi18n/ HTTP/1.1" 200 4369
+Not Found: /favicon.ico
+[13/Apr/2018 14:01:47] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 14:07:51] "POST /login/login HTTP/1.1" 200 76
+[13/Apr/2018 14:15:32] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 14:16:06] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 14:20:07] "POST /login/login HTTP/1.1" 200 48
+[13/Apr/2018 14:20:33] "POST /login/login HTTP/1.1" 200 48
+[13/Apr/2018 14:21:21] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 14:23:08] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 14:23:33] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 14:23:58] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 14:24:00] "POST /query/report/ HTTP/1.1" 200 70
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1423: RuntimeWarning: DateTimeField BoardInfo.pub_date received a naive datetime (2018-04-13 14:25:32.671117) while time zone support is active.
+  RuntimeWarning)
+[13/Apr/2018 14:25:32] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 14:25:32] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 14:27:17] "GET /admin/ HTTP/1.1" 200 4362
+[13/Apr/2018 14:27:17] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /admin/jsi18n/ HTTP/1.1" 200 4369
+[13/Apr/2018 14:27:17] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:17] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/Apr/2018 14:27:17] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 14:27:28] "POST /admin/ HTTP/1.1" 302 0
+[13/Apr/2018 14:27:29] "GET /admin/ HTTP/1.1" 200 21958
+[13/Apr/2018 14:27:29] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 14:27:29] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 14:27:29] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 14:27:29] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:29] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[13/Apr/2018 14:27:29] "GET /query/data HTTP/1.1" 200 1155
+Not Found: /favicon.ico
+[13/Apr/2018 14:27:29] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 14:49:59] "POST /login/login HTTP/1.1" 200 80
+[13/Apr/2018 14:51:15] "POST /login/login HTTP/1.1" 200 73
+[13/Apr/2018 14:51:42] "POST /login/login HTTP/1.1" 200 80
+[13/Apr/2018 14:53:23] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 15:10:41] "POST /login/login HTTP/1.1" 200 73
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1423: RuntimeWarning: DateTimeField BoardInfo.pub_date received a naive datetime (2018-04-13 15:14:01.198459) while time zone support is active.
+  RuntimeWarning)
+[13/Apr/2018 15:14:01] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 15:14:01] "POST /query/report/ HTTP/1.1" 200 70
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1423: RuntimeWarning: DateTimeField BoardInfo.pub_date received a naive datetime (2018-04-13 15:14:02.131129) while time zone support is active.
+  RuntimeWarning)
+[13/Apr/2018 15:14:02] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 15:14:02] "POST /query/report/ HTTP/1.1" 200 70
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[13/Apr/2018 15:20:36] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[13/Apr/2018 15:22:57] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 15:22:57] "POST /query/report/ HTTP/1.1" 200 70
+Not Found: /
+[13/Apr/2018 15:24:17] "GET / HTTP/1.0" 404 2247
+Not Found: /
+[13/Apr/2018 15:24:17] "OPTIONS / HTTP/1.0" 404 2251
+[13/Apr/2018 15:24:18] code 400, message Bad request version ('RTSP/1.0')
+[13/Apr/2018 15:24:18] "OPTIONS / RTSP/1.0" 400 -
+[13/Apr/2018 15:24:23] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[13/Apr/2018 15:24:23] "l          " 400 -
+Not Found: /nice ports,/Trinity.txt.bak
+[13/Apr/2018 15:24:23] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2348
+[13/Apr/2018 15:24:28] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[13/Apr/2018 15:24:28] "  (rþ          |                    " 400 -
+[13/Apr/2018 15:24:33] code 400, message Bad HTTP/0.9 request type ('\x00')
+[13/Apr/2018 15:24:33] "          versionbind   " 400 -
+[13/Apr/2018 15:24:38] code 400, message Bad HTTP/0.9 request type ('\x00')
+[13/Apr/2018 15:24:38] "            " 400 -
+[13/Apr/2018 15:24:38] code 400, message Bad request syntax ('HELP')
+[13/Apr/2018 15:24:38] "HELP" 400 -
+[13/Apr/2018 15:24:38] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[13/Apr/2018 15:24:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[13/Apr/2018 15:24:38] code 400, message Bad request version ('\x00/\x00')
+[13/Apr/2018 15:24:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[13/Apr/2018 15:24:38] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[13/Apr/2018 15:24:38] "   qjn0k¡¢" 400 -
+[13/Apr/2018 15:24:43] code 400, message Bad request syntax ('\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00')
+[13/Apr/2018 15:24:43] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[13/Apr/2018 15:24:43] code 400, message Bad request syntax ('\x01default')
+[13/Apr/2018 15:24:43] "default" 400 -
+[13/Apr/2018 15:24:43] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[13/Apr/2018 15:24:43] "0   -c   $ " 400 -
+[13/Apr/2018 15:24:48] code 400, message Bad HTTP/0.9 request type ('0')
+[13/Apr/2018 15:24:48] "0`  " 400 -
+[13/Apr/2018 15:24:48] code 400, message Bad request version ('SIP/2.0')
+[13/Apr/2018 15:24:48] "OPTIONS sip:nm SIP/2.0" 400 -
+[13/Apr/2018 15:24:53] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[13/Apr/2018 15:24:53] "TNMP   TNME   " 400 -
+[13/Apr/2018 15:24:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[13/Apr/2018 15:24:58] "  à     " 400 -
+[13/Apr/2018 15:25:03] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[13/Apr/2018 15:25:03] "DmdT           ÿÿ" 400 -
+[13/Apr/2018 15:25:08] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[13/Apr/2018 15:25:08] ":   /     @  =            /         @                 " 400 -
+[13/Apr/2018 15:25:13] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[13/Apr/2018 15:25:13] "JRMI K" 400 -
+[13/Apr/2018 15:25:18] code 400, message Bad request syntax ('\x01\x00\x00ýÎú\x0b°\xa0\x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x000\x00.\x000\x00.\x002\x009\x008\x000\x00;\x00 \x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[13/Apr/2018 15:25:18] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[13/Apr/2018 15:25:23] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[13/Apr/2018 15:25:23] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[13/Apr/2018 15:25:28] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[13/Apr/2018 15:25:28] "              " 400 -
+[13/Apr/2018 15:25:34] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[13/Apr/2018 15:25:34] "GIOP  $                abcdef     get     " 400 -
+[13/Apr/2018 15:25:35] code 400, message Bad HTTP/0.9 request type ('t3')
+[13/Apr/2018 15:25:35] "t3 12.1.2" 400 -
+Not Found: /
+[13/Apr/2018 15:25:35] "GET / HTTP/1.1" 404 2238
+Not Found: /sdk
+[13/Apr/2018 15:25:35] "POST /sdk HTTP/1.1" 404 2266
+Not Found: /nmaplowercheck1523604335
+[13/Apr/2018 15:25:35] "GET /nmaplowercheck1523604335 HTTP/1.1" 404 2328
+Not Found: /HNAP1
+[13/Apr/2018 15:25:35] "GET /HNAP1 HTTP/1.1" 404 2271
+[13/Apr/2018 15:25:45] code 400, message Bad HTTP/0.9 request type ('\x81\x18\x01\x03\x03\x00ÿ\x00\x00\x00\x10\x00\x00\x05\x00\x00\x04\x01\x00\x80\x00\x00\x02\x00\x00\x08\x00\x00\x14\x00\x00\x03\x00\x00\x01\x00\x00\x15\x00\x00\x06\x00\x00\x16\x00\x00\x17\x00\x003\x00\x009\x00\x00\x19\x00\x00:\x00\x00\x1a\x00\x00\x18\x00\x005\x00\x00')
+[13/Apr/2018 15:25:45] " ÿ                            3  9    :      5  	  " 400 -
+[13/Apr/2018 15:25:45] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8aâÄ\x1cmÇä\x83Q+âxùr\x1cN\x84Îçw¨ù\x10çª¿Æji\x11\x0et\x00\x00ô\x00\x05\x00\x04\x00\x02\x00\x08\x00\x14\x00\x03\x00\x01\x00\x15\x00\x06\x00\x16\x00\x17\x003\x009\x00\x19\x00:\x00\x1a\x00\x18\x005\x00\t\x00')
+[13/Apr/2018 15:25:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[13/Apr/2018 15:32:22] "GET /admin/ HTTP/1.1" 200 4362
+[13/Apr/2018 15:32:22] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /admin/jsi18n/ HTTP/1.1" 200 4369
+[13/Apr/2018 15:32:22] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[13/Apr/2018 15:32:22] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:22] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/Apr/2018 15:32:22] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 15:32:23] "POST /admin/ HTTP/1.1" 302 0
+[13/Apr/2018 15:32:23] "GET /admin/ HTTP/1.1" 200 22569
+[13/Apr/2018 15:32:24] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:32:24] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 15:32:24] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 15:32:24] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:24] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[13/Apr/2018 15:32:24] "GET /query/data HTTP/1.1" 200 1155
+[13/Apr/2018 15:32:33] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+[13/Apr/2018 15:32:33] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+[13/Apr/2018 15:32:33] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+[13/Apr/2018 15:32:33] "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css HTTP/1.1" 200 3729
+[13/Apr/2018 15:32:34] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+[13/Apr/2018 15:32:34] "GET /static/xadmin/css/xadmin.widget.editable.css HTTP/1.1" 200 1099
+[13/Apr/2018 15:32:34] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[13/Apr/2018 15:32:34] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:32:34] "GET /admin/query/record/ HTTP/1.1" 200 97124
+[13/Apr/2018 15:32:34] "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 200 694
+[13/Apr/2018 15:32:34] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+[13/Apr/2018 15:32:34] "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js HTTP/1.1" 200 21112
+[13/Apr/2018 15:32:34] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+[13/Apr/2018 15:32:34] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+[13/Apr/2018 15:32:34] "GET /static/xadmin/js/xadmin.plugin.editable.js HTTP/1.1" 200 6151
+[13/Apr/2018 15:32:34] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[13/Apr/2018 15:32:34] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[13/Apr/2018 15:32:34] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[13/Apr/2018 15:32:34] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[13/Apr/2018 15:32:34] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[13/Apr/2018 15:32:34] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[13/Apr/2018 15:32:34] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+[13/Apr/2018 15:32:35] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+[13/Apr/2018 15:32:47] "GET /admin/ HTTP/1.1" 200 22569
+[13/Apr/2018 15:32:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 15:32:48] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 15:32:48] "GET /query/data HTTP/1.1" 200 1155
+[13/Apr/2018 15:33:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:33:32] "GET /admin/query/record/ HTTP/1.1" 200 97124
+[13/Apr/2018 15:33:36] "GET /admin/query/record/?_p_pub_date__gte=2018-04-13+00%3A00%3A00%2B08%3A00&_p_pub_date__lt=2018-04-14+00%3A00%3A00%2B08%3A00 HTTP/1.1" 200 54843
+[13/Apr/2018 15:33:36] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:33:36] "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js HTTP/1.1" 200 21112
+[13/Apr/2018 15:33:36] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+[13/Apr/2018 15:34:15] "GET /admin/query/record/ HTTP/1.1" 200 97124
+[13/Apr/2018 15:34:17] "GET /admin/ HTTP/1.1" 200 22569
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 15:34:17] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 15:34:35] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:34:35] "GET /admin/query/record/ HTTP/1.1" 200 97124
+[13/Apr/2018 15:34:42] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:34:42] "GET /admin/query/record/?_p_pub_date__gte=2018-04-13+00%3A00%3A00%2B08%3A00&_p_pub_date__lt=2018-04-14+00%3A00%3A00%2B08%3A00 HTTP/1.1" 200 54843
+[13/Apr/2018 15:34:56] "GET /admin/query/record/?_p_pub_date__gte=2018-04-13+00%3A00%3A00%2B08%3A00&_p_test_type__id__exact=1&_p_pub_date__lt=2018-04-14+00%3A00%3A00%2B08%3A00 HTTP/1.1" 200 34126
+[13/Apr/2018 15:34:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:35:00] "GET /admin/query/record/?_p_pub_date__gte=2018-04-13+00%3A00%3A00%2B08%3A00&_p_test_type__id__exact=2&_p_pub_date__lt=2018-04-14+00%3A00%3A00%2B08%3A00 HTTP/1.1" 200 46459
+[13/Apr/2018 15:35:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:35:05] "GET /admin/query/record/?_p_pub_date__gte=2018-04-13+00%3A00%3A00%2B08%3A00&_p_test_type__id__exact=3&_p_pub_date__lt=2018-04-14+00%3A00%3A00%2B08%3A00 HTTP/1.1" 200 40936
+[13/Apr/2018 15:35:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:35:56] "GET /admin/ HTTP/1.1" 200 21958
+[13/Apr/2018 15:35:56] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 15:35:56] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 15:35:56] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 15:35:56] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 15:35:56] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 15:35:56] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[13/Apr/2018 15:35:56] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:56] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 15:35:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:35:56] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 15:35:56] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 15:35:57] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:57] "GET /query/data HTTP/1.1" 200 1155
+[13/Apr/2018 15:35:57] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:57] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:57] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:57] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:57] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:57] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:58] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:58] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:58] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[13/Apr/2018 15:35:58] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/Apr/2018 15:35:58] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 15:50:40] "GET /admin/query/boardinfo/79/detail/ HTTP/1.1" 200 12567
+[13/Apr/2018 15:50:40] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:50:40] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:40] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:46] "GET /admin/query/record/ HTTP/1.1" 200 66443
+[13/Apr/2018 15:50:46] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:50:46] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+[13/Apr/2018 15:50:46] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:46] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:46] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:46] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:46] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:46] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:47] "GET /admin/query/stubinfo/ HTTP/1.1" 200 37586
+[13/Apr/2018 15:50:47] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:50:49] "GET /admin/query/boardinfo/ HTTP/1.1" 200 37851
+[13/Apr/2018 15:50:49] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 15:50:56] "GET /admin HTTP/1.1" 301 0
+[13/Apr/2018 15:50:56] "GET /admin/ HTTP/1.1" 200 21960
+[13/Apr/2018 15:50:56] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[13/Apr/2018 15:50:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 15:50:56] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[13/Apr/2018 15:50:56] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 15:50:56] "GET /query/data HTTP/1.1" 200 1155
+[13/Apr/2018 15:51:20] "GET /admin/ HTTP/1.1" 200 21960
+[13/Apr/2018 15:51:20] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 15:51:20] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 15:51:20] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[13/Apr/2018 15:51:20] "GET /query/data HTTP/1.1" 200 1155
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1423: RuntimeWarning: DateTimeField StubInfo.pub_date received a naive datetime (2018-04-13 15:57:50.314644) while time zone support is active.
+  RuntimeWarning)
+[13/Apr/2018 15:57:50] "POST /query/stubinfo/ HTTP/1.1" 200 65
+[13/Apr/2018 15:57:50] "POST /query/report/ HTTP/1.1" 200 70
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1423: RuntimeWarning: DateTimeField BoardInfo.pub_date received a naive datetime (2018-04-13 15:58:28.607843) while time zone support is active.
+  RuntimeWarning)
+[13/Apr/2018 15:58:28] "POST /query/boardinfo/ HTTP/1.1" 200 66
+[13/Apr/2018 15:58:28] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 16:02:17] "POST /query/report/ HTTP/1.1" 200 70
+[13/Apr/2018 16:03:40] "GET /admin/ HTTP/1.1" 200 21958
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 16:03:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 16:03:40] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 16:03:40] "GET /query/data HTTP/1.1" 200 1155
+Not Found: /favicon.ico
+[13/Apr/2018 16:03:40] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 16:05:12] "GET /admin/ HTTP/1.1" 200 21958
+[13/Apr/2018 16:05:12] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 16:05:12] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 16:05:12] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 16:05:12] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 16:05:12] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 16:05:12] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 16:05:12] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[13/Apr/2018 16:05:12] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:12] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 16:05:12] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 16:05:12] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 16:05:13] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:13] "GET /query/data HTTP/1.1" 200 1155
+[13/Apr/2018 16:05:13] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:13] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:13] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:13] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:13] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:13] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:13] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:13] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:13] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[13/Apr/2018 16:05:13] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/Apr/2018 16:05:13] "GET /favicon.ico HTTP/1.1" 404 2289
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 13, 2018 - 10:22:42
+Django version 2.0.3, using settings 'ruisu.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('120.197.45.40', 1220)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.197.45.40', 51593)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.197.45.40', 1222)
+----------------------------------------
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'board': '000018030086', 'dcd': 'LT18-8113DCD01058', 'pwr': 'LT18-8113PWR', 'cpu': 'LT18-8113CPULT17K01967', 'dcr': 'LT18-8113DCR01107', 'ddb': 'LT18-8113DDB01103', 'dcm': 'LT18-8113DCM01090', 'g4': 'MP818AA08000706', 'led': 'LT18-8113LED201082'}
+{'board': '000018030086', 'dcd': 'LT18-8113DCD01058', 'pwr': 'LT18-8113PWR01123', 'cpu': 'LT18-8113CPULT17K01967', 'dcr': 'LT18-8113DCR01107', 'ddb': 'LT18-8113DDB01103', 'dcm': 'LT18-8113DCM01090', 'g4': 'MP818AA08000706', 'led': 'LT18-8113LED201082'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'zhengjunxian', 'password': 'mcmc1918'}
+{'username': 'admin', 'password': 'hello12345'}
+{'board': '000018030090', 'dcd': 'LT18-8113DCD01121', 'pwr': 'LT18-8113PWR01051', 'cpu': 'LT18-8113CPU01025', 'dcr': 'LT18-8113DCR01089', 'ddb': 'LT18-8113DDB01120', 'dcm': 'LT18-8113DCM01137', 'g4': 'MP818A27000016', 'led': 'LT18-8113LED201060'}
+{'board': '000018030082', 'dcd': 'LT18-8113DCD01006', 'pwr': 'LT18-8113PWR01008', 'cpu': 'LT18-8113CPULT17K02079', 'dcr': 'LT18-8113DCR01089', 'ddb': 'LT18-8113DDB01033', 'dcm': 'LT18-8113DCM01033', 'g4': 'MP818AC09005015', 'led': 'LT18-8113LED201117'}
+{'board': '000018030090', 'dcd': 'LT18-8113DCD01121', 'pwr': 'LT18-8113PWR01051', 'cpu': 'LT18-8113CPU01025', 'dcr': 'LT18-8113DCRLT17K02326', 'ddb': 'LT18-8113DDB01120', 'dcm': 'LT18-8113DCM01137', 'g4': 'MP818A27000016', 'led': 'LT18-8113LED201060'}
+{'username': 'taosijun', 'password': 'rs888888'}
+{'board': '000018030091', 'dcd': 'LT18-8113DCD01070', 'pwr': 'LT18-8113PWR01067', 'cpu': 'LT18-8113CPULT17K02057', 'dcr': 'LT18-8113DCR01079', 'ddb': 'LT18-8113DDB01059', 'dcm': 'LT18-8113DCM01081', 'g4': 'MP818A927000059', 'led': 'LT18-8113LED201033'}
+{'username': 'taosijun', 'password': 'rs888888'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'admin', 'password': 'hello12345'}
+{'board': '000018030092', 'dcd': 'LT18-8113DCD01102', 'pwr': 'LT18-8113PWR01042', 'cpu': 'LT18-8113CPU01067', 'dcr': 'LT18-8113DCR01147', 'ddb': 'LT18-8113DDB01126', 'dcm': 'LT18-8113DCM01008', 'g4': 'MP818AC09004946', 'led': 'LT18-8113LED201024'}
+{'username': 'zhengjunxian', 'password': 'mcmc1918'}
+{'username': 'admin', 'password': 'hello12345'}
+{'username': 'zhengjunxian', 'password': 'mcmc1918'}
+{'username': 'admin', 'password': 'hello12345'}
+{'board': '000018030094', 'dcd': 'LT18-8113DCD01152', 'pwr': 'LT18-8113PWR01086', 'cpu': 'LT18-8113CPU01059', 'dcr': 'LT18-8113DCR01098', 'ddb': 'LT18-8113DDB01146', 'dcm': 'LT18-8113DCM01145', 'g4': 'MP818AC09004979', 'led': 'LT18-8113LED201037'}
+{'board': '000018030093', 'dcd': 'LT18-8113DCD01013', 'pwr': 'LT18-8113PWR01100', 'cpu': 'LT18-8113CPULT17K02129', 'dcr': 'LT18-8113DCR01136', 'ddb': 'LT18-8113DDB01037', 'dcm': 'LT18-8113DCM01123', 'g4': 'MP818AB02004287', 'led': 'LT18-8113LED201025'}
+{'board': '000018030086', 'dcd': 'LT18-8113DCD01058', 'pwr': 'LT18-8113PWR01123', 'cpu': 'LT18-8113CPULT17K01967', 'dcr': 'LT18-8113DCR01107', 'ddb': 'LT18-8113DDB01103', 'dcm': 'LT18-8113DCM01145', 'g4': 'MP818AA08000706', 'led': 'LT18-8113LED201082'}
+{'board': '000018030095', 'dcd': 'LT18-8113DCD01123', 'pwr': 'LT18-8113PWR01060', 'cpu': 'LT18-8113CPU01010', 'dcr': 'LT18-8113DCR01127', 'ddb': 'LT18-8113DDB01138', 'dcm': 'LT18-8113DCM01052', 'g4': 'MP818A927000143', 'led': 'LT18-8113LED201104'}
+[13/Apr/2018 16:08:54] "GET /admin/ HTTP/1.1" 200 21958
+[13/Apr/2018 16:08:54] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 16:08:54] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 16:08:54] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 16:08:54] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /query/data HTTP/1.1" 200 1157
+[13/Apr/2018 16:08:54] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:54] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:55] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[13/Apr/2018 16:08:55] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/Apr/2018 16:08:55] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 16:09:21] "GET /admin/ HTTP/1.1" 200 22569
+[13/Apr/2018 16:09:21] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 16:09:21] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 16:09:21] "GET /query/data HTTP/1.1" 200 1157
+[13/Apr/2018 16:09:51] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 16:09:51] "GET /admin/query/record/ HTTP/1.1" 200 97134
+[13/Apr/2018 16:09:55] "GET /admin/query/record/?_p_pub_date__lt=2018-04-14+00%3A00%3A00%2B08%3A00&_p_pub_date__gte=2018-04-13+00%3A00%3A00%2B08%3A00 HTTP/1.1" 200 58936
+[13/Apr/2018 16:09:55] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 16:10:02] "GET /admin/query/record/?_p_pub_date__lt=2018-04-14+00%3A00%3A00%2B08%3A00&_p_pub_date__gte=2018-04-13+00%3A00%3A00%2B08%3A00&_p_test_type__id__exact=1 HTTP/1.1" 200 35488
+[13/Apr/2018 16:10:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+/usr/local/lib/python3.5/dist-packages/django/template/defaulttags.py:63: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  "A {% csrf_token %} was used in a template, but the context "
+[13/Apr/2018 16:10:08] "GET /admin/query/record/223/patch/?fields=approved_bool HTTP/1.1" 200 421
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 13, 2018 - 16:08:41
+Django version 2.0.3, using settings 'ruisu.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+[13/Apr/2018 16:11:19] "GET /admin/ HTTP/1.1" 200 21630
+[13/Apr/2018 16:11:19] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[13/Apr/2018 16:11:19] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[13/Apr/2018 16:11:19] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[13/Apr/2018 16:11:19] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[13/Apr/2018 16:11:19] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[13/Apr/2018 16:11:19] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[13/Apr/2018 16:11:19] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[13/Apr/2018 16:11:19] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 16:11:19] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 16:11:19] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 16:11:19] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:19] "GET /query/data HTTP/1.1" 200 1157
+[13/Apr/2018 16:11:20] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:20] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:20] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:20] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:20] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:20] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:20] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:20] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:20] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[13/Apr/2018 16:11:20] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/Apr/2018 16:11:20] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 16:12:05] "GET /admin/ HTTP/1.1" 200 21630
+Not Found: /admin/static/js/jquery-3.2.1.min.js
+[13/Apr/2018 16:12:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[13/Apr/2018 16:12:05] "GET /admin/static/js/jquery-3.2.1.min.js HTTP/1.1" 404 6848
+[13/Apr/2018 16:12:05] "GET /query/data HTTP/1.1" 200 1157
+Not Found: /favicon.ico
+[13/Apr/2018 16:12:05] "GET /favicon.ico HTTP/1.1" 404 2289
+[13/Apr/2018 16:12:44] "GET /admin/logout/ HTTP/1.1" 200 2869
+[13/Apr/2018 16:12:44] "GET /admin/jsi18n/ HTTP/1.1" 200 4369
+Not Found: /favicon.ico
+[13/Apr/2018 16:12:44] "GET /favicon.ico HTTP/1.1" 404 2289
