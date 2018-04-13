@@ -7,7 +7,7 @@ class StubInfoAdmin(admin.ModelAdmin):
     search_fields=('stub_text',)
 
 class RecordAdmin(admin.ModelAdmin):
-    list_display=('sn_text','testtype','report_text','pub_date','approved_bool')
+    list_display=('sn_text','test_type','report_text','pub_date','approved_bool')
     search_fields=('sn_text',)
 
 class BoardInfoAdmin(admin.ModelAdmin):

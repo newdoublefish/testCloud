@@ -15,9 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-
+import xadmin
+xadmin.autodiscover()
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    #path('xadmin/',xadmin.site.urls),
+    #path('admin/', admin.site.urls),
+    path('admin/',xadmin.site.urls),
     path('polls/', include('polls.urls')),
     path('query/', include('query.urls')),
+    path('login/', include('login.urls')),
 ]
