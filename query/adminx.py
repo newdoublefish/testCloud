@@ -63,8 +63,16 @@ class RecordAdmin(object):
         "approved_bool",
 
     )
+    def passpercentshow(self,obj):
+        if obj.result_integer==100:
+            return """<font color="green">%d%%</font>"""%obj.result_integer
+        else:
+            return """<font color="red">%d%%</font>"""%obj.result_integer
+    passpercentshow.short_description = '合格率'
+    passpercentshow.allow_tags = True
+    passpercentshow.is_column = True
 
-    list_display = ['sn_text', 'test_type', 'resultshow', 'ftppathshow', 'pub_date', 'approved_bool']
+    list_display = ['sn_text', 'test_type', 'passpercentshow', 'ftppathshow', 'pub_date', 'approved_bool']
     search_fields = ['sn_text', ]
     list_filter = ('sn_text', 'test_type', 'approved_bool', 'pub_date')
     list_export = ('xls', )

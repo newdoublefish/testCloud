@@ -16,16 +16,22 @@ def index(request):
     select = {'day': connection.ops.date_trunc_sql('day', 'pub_date')}
     #records = Record.objects.extra(select=select).values('day').annotate(number=Count('id'))
     reportType = TestType.objects.get(name_text='安规')
-    records = Record.objects.extra(select=select).values('day').annotate(number=Count('id')).order_by('day')
+    stubs = StubInfo.objects.extra(select=select).values('day').annotate(number=Count('id')).order_by('day')
     print(request.user.username)
-    response_packet = {"response": "cmd", "data": " ", "status": "error"}
-    print(records)
-    data={}
-    for record in records:
-        data[record['day']]=record['number']
+    response_packet = {"response": "cmd", "data": {"total":"","current":""}, "status": "error"}
+    print(stubs)
+    data = collections.OrderedDict()
+    dataTotal = collections.OrderedDict()
+    cnt = 0;
+    for stub in stubs:
+        data[stub['day']] = stub['number']
+        cnt = cnt + stub['number']
+        dataTotal[stub['day']] = cnt
     #response_packet['data'] = {"user1":"name1","user2":"name2"}
-    response_packet['data']=data
+    response_packet['data']['total'] = dataTotal
+    response_packet['data']['current'] = data
     return HttpResponse(json.dumps(response_packet), content_type="application/json")
+
 
 @csrf_exempt
 def getDataAnalysis(request):
@@ -95,12 +101,19 @@ def report(request):
                 newReport = Record()
             newReport.sn_text = request_data["sn"]
             newReport.test_type = reportType
-            newReport.result_integer = 100
+            #newReport.result_integer = 100
+            #reportResult = True if request_data['result'] == 'True' else False
+            if request_data['result'] == "true":
+                newReport.result_integer = 100
+            elif request_data['result'] == "false":
+                newReport.result_integer = 0
+            else:
+                newReport.result_integer = request_data['result']
             newReport.report_text = request_data['report']
-            newReport.pub_date = timezone.now()
             newReport.factory_text = request_data['factory']
             newReport.person_text = request_data['person']
             newReport.approved_bool = False
+            newReport.pub_date = timezone.now()
             newReport.save()
             response_packet['data'] = {"reportid": newReport.id}
             response_packet['status'] = "success"
@@ -152,6 +165,7 @@ def stubInfo(request):
             stubInfo.gun2_text = request_data['gun2']
             stubInfo.gun_vendor_text = request_data['vendor']
             stubInfo.power_module_text = request_data['power']
+            stubInfo.pub_date = timezone.now()
 
             stubInfo.save()
             response_packet['data'] = {"id": stubInfo.id}
@@ -193,6 +207,7 @@ def boardInfo(request):
             info.ddb_text = request_data['ddb']
             info.dcr_text = request_data['dcr']
             info.led_text = request_data['led']
+            info.pub_date = timezone.now()
             info.save()
             response_packet['data'] = {"id": info.id}
             response_packet['status'] = "success";
