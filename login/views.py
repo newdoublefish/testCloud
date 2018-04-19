@@ -3,6 +3,7 @@ import json
 import sys
 from django.contrib.auth import authenticate, login
 from django.views.decorators.csrf import csrf_exempt
+from django.contrib.auth.models import User
 
 
 @csrf_exempt
@@ -33,8 +34,16 @@ def mylogin(request):
                 #login(user)
                 # Redirect to a success page.
                 login(request, user)
-                response_packet['data'] = {"username": username}
-                response_packet['status'] = "success"
+                myuser = User.objects.get(username=username)
+                #print(myuser.get_full_name())
+                fullname = ("%s%s"%(myuser.last_name ,myuser.first_name))
+                print(fullname)
+                if myuser.is_staff == True:
+                    response_packet['data'] = {"username": fullname}
+                    response_packet['status'] = "success"
+                else:
+                    response_packet['data'] = {"username": username}
+                    response_packet['status'] = "fail"
             else:
                 response_packet['data'] = {"username": username}
                 response_packet['status'] = "fail"

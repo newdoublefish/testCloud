@@ -9,6 +9,8 @@ from django.views.decorators.csrf import csrf_exempt
 from django.db import connection
 from django.db.models import Count
 import collections
+from django.contrib.auth.models import User
+from datetime import datetime
 
 
 @csrf_exempt
@@ -103,6 +105,7 @@ def report(request):
             newReport.test_type = reportType
             #newReport.result_integer = 100
             #reportResult = True if request_data['result'] == 'True' else False
+            #print(request_data['result'])
             if request_data['result'] == "true":
                 newReport.result_integer = 100
             elif request_data['result'] == "false":
@@ -111,9 +114,34 @@ def report(request):
                 newReport.result_integer = request_data['result']
             newReport.report_text = request_data['report']
             newReport.factory_text = request_data['factory']
-            newReport.person_text = request_data['person']
+            try:
+               myuser = User.objects.get(username=request_data['person'])
+               fullname = ("%s%s" % (myuser.last_name, myuser.first_name))
+               newReport.person_text = fullname
+            except:
+                newReport.person_text = request_data['person']
             newReport.approved_bool = False
-            newReport.pub_date = timezone.now()
+            newReport.pub_date = datetime.now()
+            if 'pub_date' in request_data:
+                print(request_data['pub_date'])
+                if len(request_data['pub_date']) == 12:
+                    try:
+                        year = int(request_data['pub_date'][0:4])
+                        print(year)
+                        month = int(request_data['pub_date'][4:6])
+                        #print(month)
+                        day = int(request_data['pub_date'][6:8])
+                        #print(day)
+                        hour = int(request_data['pub_date'][8:10])
+                        #print(hour)
+                        min = int(request_data['pub_date'][10:12])
+                        #print(min)
+                        if  year>=2010 and year<2030 and month>0 and month <12 and day>0 and day<32 and hour>=0 and hour<=24 and min >=0 and min<=60:
+                            #print("-------------")
+                            newReport.pub_date= newReport.pub_date.replace(year=year, month=month, day=day, hour=hour, minute=min)
+                    except:
+                        print("wrong format of time")
+            print(newReport.pub_date)
             newReport.save()
             response_packet['data'] = {"reportid": newReport.id}
             response_packet['status'] = "success"
@@ -165,7 +193,25 @@ def stubInfo(request):
             stubInfo.gun2_text = request_data['gun2']
             stubInfo.gun_vendor_text = request_data['vendor']
             stubInfo.power_module_text = request_data['power']
-            stubInfo.pub_date = timezone.now()
+            stubInfo.pub_date = datetime.now()
+            if 'pub_date' in request_data:
+                if len(request_data['pub_date']) == 12:
+                    try:
+                        year = int(request_data['pub_date'][0:4])
+                        #print(year)
+                        month = int(request_data['pub_date'][4:6])
+                        #print(month)
+                        day = int(request_data['pub_date'][6:8])
+                        #print(day)
+                        hour = int(request_data['pub_date'][8:10])
+                        #print(hour)
+                        min = int(request_data['pub_date'][10:12])
+                        #print(min)
+                        if  year>=2010 and year<2030 and month>0 and month <12 and day>0 and day<32 and hour>=0 and hour<=24 and min >=0 and min<=60:
+                            #print("-------------")
+                            stubInfo.pub_date= stubInfo.pub_date.replace(year=year, month=month, day=day, hour=hour, minute=min)
+                    except:
+                        print("wrong format of time")
 
             stubInfo.save()
             response_packet['data'] = {"id": stubInfo.id}
@@ -207,7 +253,24 @@ def boardInfo(request):
             info.ddb_text = request_data['ddb']
             info.dcr_text = request_data['dcr']
             info.led_text = request_data['led']
-            info.pub_date = timezone.now()
+            info.pub_date = datetime.now()
+            if 'pub_date' in request_data:
+                if len(request_data['pub_date']) == 12:
+                    try:
+                        year = int(request_data['pub_date'][0:4])
+                        #print(year)
+                        month = int(request_data['pub_date'][4:6])
+                        #print(month)
+                        day = int(request_data['pub_date'][6:8])
+                        #print(day)
+                        hour = int(request_data['pub_date'][8:10])
+                        #print(hour)
+                        min = int(request_data['pub_date'][10:12])
+                        #print(min)
+                        if  year>=2010 and year<2030 and month>0 and month <12 and day>0 and day<32 and hour>=0 and hour<=24 and min >=0 and min<=60:
+                            info.pub_date= info.pub_date.replace(year=year, month=month, day=day, hour=hour, minute=min)
+                    except:
+                        print("wrong format of time")
             info.save()
             response_packet['data'] = {"id": info.id}
             response_packet['status'] = "success";
