@@ -1,1 +1,3 @@
 nohup.out
+db.sqlite3
+*.json
